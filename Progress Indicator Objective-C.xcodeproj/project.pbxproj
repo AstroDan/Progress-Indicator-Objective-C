@@ -13,6 +13,7 @@
 		3785814319A8CB350031ACF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3785814119A8CB350031ACF3 /* Main.storyboard */; };
 		3785814519A8CB350031ACF3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3785814419A8CB350031ACF3 /* Images.xcassets */; };
 		3785815119A8CB350031ACF3 /* Progress_Indicator_Objective_CTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3785815019A8CB350031ACF3 /* Progress_Indicator_Objective_CTests.m */; };
+		3785815C19A8CB580031ACF3 /* ProgressIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3785815B19A8CB580031ACF3 /* ProgressIndicator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,8 @@
 		3785814A19A8CB350031ACF3 /* Progress Indicator Objective-CTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Progress Indicator Objective-CTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3785814F19A8CB350031ACF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3785815019A8CB350031ACF3 /* Progress_Indicator_Objective_CTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Progress_Indicator_Objective_CTests.m; sourceTree = "<group>"; };
+		3785815A19A8CB580031ACF3 /* ProgressIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressIndicator.h; sourceTree = "<group>"; };
+		3785815B19A8CB580031ACF3 /* ProgressIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressIndicator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,8 @@
 		3785813619A8CB350031ACF3 /* Progress Indicator Objective-C */ = {
 			isa = PBXGroup;
 			children = (
+				3785815A19A8CB580031ACF3 /* ProgressIndicator.h */,
+				3785815B19A8CB580031ACF3 /* ProgressIndicator.m */,
 				3785813B19A8CB350031ACF3 /* AppDelegate.h */,
 				3785813C19A8CB350031ACF3 /* AppDelegate.m */,
 				3785813E19A8CB350031ACF3 /* ViewController.h */,
@@ -215,6 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3785815C19A8CB580031ACF3 /* ProgressIndicator.m in Sources */,
 				3785814019A8CB350031ACF3 /* ViewController.m in Sources */,
 				3785813D19A8CB350031ACF3 /* AppDelegate.m in Sources */,
 				3785813A19A8CB350031ACF3 /* main.m in Sources */,
